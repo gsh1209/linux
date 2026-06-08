@@ -104,6 +104,7 @@
 	pinctrl-0 = <&gmac0_cfg>;
 	rx-internal-delay-ps = <0>;
 	tx-internal-delay-ps = <0>;
+	local-mac-address = [02 4A 7E C3 F1 58];
 	status = "okay";
 
 	mdio-bus {
@@ -128,6 +129,7 @@
 	pinctrl-0 = <&gmac1_cfg>;
 	rx-internal-delay-ps = <0>;
 	tx-internal-delay-ps = <250>;
+	local-mac-address = [02 4A 7E C3 F1 59];
 	status = "okay";
 
 	mdio-bus {
